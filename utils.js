@@ -17,3 +17,10 @@ var c_in_object;
 var calObjForForm = new DHTMLSuite.calendar({minuteDropDownInterval: 10, numberOfRowsInHourDropDown: 5, callbackFunctionOnDayClick: 'getDateFrom_Cal', isDragable: false, displayTimeBar: false});
 
 var cal_old_value = 'old date';
+
+
+var dynConObj = new DHTMLSuite.dynamicContent();	// Creating object of class DHTMLSuite.dynamicContent
+
+messageObj = new DHTMLSuite.modalMessage();	// We only create one object of this class
+messageObj.setWaitMessage('Loading message - please wait....');
+messageObj.setShadowOffset(5);	// Large shadow
