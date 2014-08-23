@@ -17,3 +17,5 @@ var c_in_object;
 var calObjForForm = new DHTMLSuite.calendar({minuteDropDownInterval: 10, numberOfRowsInHourDropDown: 5, callbackFunctionOnDayClick: 'getDateFrom_Cal', isDragable: false, displayTimeBar: false});
 
 var cal_old_value = 'old date';
+//
+//
